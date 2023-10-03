@@ -16,6 +16,11 @@ body{
     font-size: 30px;  
 }
 
+#logo{
+    width: 7%;
+    vertical-align: middle;
+}
+
 #tagline {
     padding: 0 0 0 1em;
     margin-left: 50px;
