@@ -2,6 +2,7 @@ body{
     color: deeppink;
     text-align: center;
     font-family: "Arial";
+    background-color: rgba(35, 153, 114, 0.479);
 }
 .lds-circle {
     display: inline-block;
