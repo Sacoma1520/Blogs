@@ -93,3 +93,34 @@ body{
         transform: rotateY(3600deg);
     }
 }
+
+#footer {
+    width: 100%;
+    background-color: #333;
+    /* Color de fondo */
+    color: #fff;
+    /* Color del texto */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#footer::before {
+    content: "Trabajo realizado bajo presión...";
+    position: relative;
+    animation: moveLeftRight 8s linear infinite;
+}
+
+@keyframes moveLeftRight {
+    0% {
+        left: -100%;
+        /* Vuelve a salir por la izquierda */
+    }
+    100% {
+        left: 100%;
+        /* Inicia desde la derecha */
+    }
+
+}
